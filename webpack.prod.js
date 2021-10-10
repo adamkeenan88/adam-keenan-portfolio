@@ -25,9 +25,9 @@ module.exports = merge(common, {
       template: "./src/template.html",
       favicon: "./src/assets/favicon.png",
       minify: {
-        removeAttributeQuotes: true,
-        collapseWhitespace: true,
-        removeComments: true,
+        removeAttributeQuotes: false,
+        collapseWhitespace: false,
+        removeComments: false,
       },
     }),
   ],
